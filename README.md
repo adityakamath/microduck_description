@@ -5,8 +5,6 @@
 
 > URDF and xacro description for [Microduck](https://pollen-robotics.com/microduck/) — [Pollen Robotics](https://pollen-robotics.com/)' 25 cm open-source biped that walks, sits, kicks, and learns.
 
-<!-- TODO: add image of the cream microduck (e.g. microduck_cream.png) -->
-
 ## Package Contents
 
 ```
@@ -24,7 +22,6 @@ microduck_description/
 <!-- TODO: add URDF preview image (e.g. microduck_urdf_preview.png) -->
 
 ## Robot
-
 25 cm tall, 14 cm wide, under 800 g — [full spec sheet](https://pollen-robotics.com/microduck/press-kit/).
 
 The URDF models **15 actuated joints** across:
@@ -32,7 +29,7 @@ The URDF models **15 actuated joints** across:
 - **Neck/head** (4 DOF): neck pitch, head pitch, head yaw, head roll
 - **Beak** (1 DOF): articulated grasping jaw
 
-> The materials in this package match the **Cream** colorway (`#f7e6cb` shells, orange trim and beak, amber accents). Microduck ships in four colorways: **Cream**, **Graphite**, **Lavender**, and **Sky**.
+> The materials in this package match the **Cream** colorway (cream shells, orange trim and beak, amber accents). Microduck ships in four colorways: **Cream**, **Graphite**, **Lavender**, and **Sky**.
 
 | Joint group | Joints |
 |---|---|
