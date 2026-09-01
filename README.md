@@ -1,4 +1,4 @@
-# microduck_description
+# Microduck Description
 
 [![ROS 2](https://img.shields.io/badge/ROS_2-blue?logo=ros)](https://docs.ros.org)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
