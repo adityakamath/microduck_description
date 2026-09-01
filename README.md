@@ -52,7 +52,7 @@ colcon build --packages-select microduck_description
 ros2 launch microduck_description urdf.launch.py
 ```
 
-> OR use the `microduck.urdf` file directly in any URDF viewer
+> OR use the `microduck.urdf` directly in any URDF viewer
 
 ## References
 
