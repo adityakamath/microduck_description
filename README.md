@@ -5,6 +5,8 @@
 
 > URDF and xacro description for [Microduck](https://pollen-robotics.com/microduck/) — [Pollen Robotics](https://pollen-robotics.com/)' 25 cm open-source biped that walks, sits, kicks, and learns.
 
+<img alt="microduck-morning" src="https://github.com/user-attachments/assets/57765600-6a0d-41c6-bde2-3b3edeca08aa" />
+
 ## Package Contents
 
 ```
@@ -19,7 +21,7 @@ microduck_description/
     └── microduck.joints.xacro  — joint definitions
 ```
 
-<!-- TODO: add URDF preview image (e.g. microduck_urdf_preview.png) -->
+<img alt="Screenshot 2026-09-01 at 23 49 31" src="https://github.com/user-attachments/assets/4d58b70c-2df7-42d7-bd8e-4f4c7f6baeda" />
 
 ## Robot
 25 cm tall, 14 cm wide, under 800 g — [full spec sheet](https://pollen-robotics.com/microduck/press-kit/).
@@ -28,6 +30,8 @@ The URDF models **15 actuated joints** across:
 - **Legs** (10 DOF): two 5-DOF legs, each with a 3-DOF hip (yaw + roll + pitch), knee, and ankle
 - **Neck/head** (4 DOF): neck pitch, head pitch, head yaw, head roll
 - **Beak** (1 DOF): articulated grasping jaw
+
+<img alt="microduck" src="https://github.com/user-attachments/assets/65f54334-32c1-42bf-88fe-c11bde0865e9" />
 
 > The materials in this package match the **Cream** colorway (cream shells, orange trim and beak, amber accents). Microduck ships in four colorways: **Cream**, **Graphite**, **Lavender**, and **Sky**.
 
@@ -48,6 +52,8 @@ colcon build --packages-select microduck_description
 ros2 launch microduck_description urdf.launch.py
 ```
 
+> OR use the `microduck.urdf` file directly in any URDF viewer
+
 ## References
 
 - [Microduck product page](https://pollen-robotics.com/microduck/)
@@ -60,4 +66,4 @@ ros2 launch microduck_description urdf.launch.py
 
 The URDF, xacro, and launch files in this package are Apache 2.0 — see [LICENSE](LICENSE).
 
-The STL mesh assets originate from [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl). Per the Microduck press kit, the software stack is Apache 2.0 but the mechanical and electronic design files are not covered by that statement — refer to the upstream repository for the applicable terms before redistributing the meshes.
+The STL mesh assets originate from [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl). Per the [Microduck press kit](https://pollen-robotics.com/microduck/press-kit/), the software stack is Apache 2.0, but the mechanical and electronic design files are not covered by that statement — refer to the upstream repository for the applicable terms before redistributing the meshes.
