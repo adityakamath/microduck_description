@@ -40,8 +40,8 @@
       </inertial>
     </link>
 
-    <!-- leg -->
-    <link name="leg">
+    <!-- leg_left -->
+    <link name="leg_left">
       <visual>
         <origin xyz="-0.022 0.0357771 0.0385" rpy="1.570796 1.570796 0.000000"/>
         <geometry>
@@ -107,8 +107,8 @@
       </inertial>
     </link>
 
-    <!-- hip_l -->
-    <link name="hip_l">
+    <!-- hip_left -->
+    <link name="hip_left">
       <visual>
         <origin xyz="0.021 0.0 -0.0185" rpy="1.570796 0.000000 1.570796"/>
         <geometry>
@@ -130,8 +130,8 @@
       </inertial>
     </link>
 
-    <!-- yaw2roll -->
-    <link name="yaw2roll">
+    <!-- yaw2roll_left -->
+    <link name="yaw2roll_left">
       <visual>
         <origin xyz="-0.0175 -0.002 0.0125" rpy="3.141593 0.000000 0.000000"/>
         <geometry>
@@ -431,8 +431,8 @@
       </inertial>
     </link>
 
-    <!-- leg_2 -->
-    <link name="leg_2">
+    <!-- leg_right -->
+    <link name="leg_right">
       <visual>
         <origin xyz="-0.042 0.0 -0.0115" rpy="-0.000000 -1.570796 0.000000"/>
         <geometry>
@@ -498,8 +498,8 @@
       </inertial>
     </link>
 
-    <!-- hip_l_2 -->
-    <link name="hip_l_2">
+    <!-- hip_right -->
+    <link name="hip_right">
       <visual>
         <origin xyz="-0.0175 0.0 -0.0185" rpy="-1.570796 0.000000 0.000000"/>
         <geometry>
@@ -521,8 +521,8 @@
       </inertial>
     </link>
 
-    <!-- yaw2roll_2 -->
-    <link name="yaw2roll_2">
+    <!-- yaw2roll_right -->
+    <link name="yaw2roll_right">
       <visual>
         <origin xyz="-0.0175 -0.002 0.0125" rpy="3.141593 0.000000 0.000000"/>
         <geometry>
