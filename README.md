@@ -59,8 +59,7 @@ ros2 launch microduck_description urdf.launch.py
 - [Microduck product page](https://pollen-robotics.com/microduck/)
 - [Microduck press kit](https://pollen-robotics.com/microduck/press-kit/)
 - [microduck_rl](https://github.com/pollen-robotics/microduck_rl) — MuJoCo source models and RL training stack
-- [Onshape CAD](https://cad.onshape.com/documents/804927696f06d877f3f1803e/w/5b75db19292e71970de02dee/e/ef6e972847fec8d82570b35e)
-- [mujoco_to_urdf](https://github.com/iory/mujoco_to_urdf) — MJCF→URDF conversion tool used as reference
+- [mjcf2urdf](https://github.com/iory/mjcf2urdf)) — MJCF→URDF conversion tool used as reference
 
 ## License
 
